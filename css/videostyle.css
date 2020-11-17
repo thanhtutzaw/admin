@@ -1,0 +1,25 @@
+.container{
+	margin:auto;
+	position: absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,0%);
+	
+
+}
+.c-video{
+	width:100%;
+}
+.video{
+	margin-top:10px;
+	border-bottom:25px solid orange;
+	width:100%;
+	max-width: 700px;
+}
+.video:focus{
+	box-shadow: orange;
+	border-bottom:25px solid orange;
+}
+p{
+	margin-bottom:20px;
+}
